@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>
+        Loan decision engine
+    </title>
+</head>
+
+<body>
+<h1>
+    Loan decision engine
+</h1>
+
+<p>
+    <label for="personalCode">Personal code</label><br>
+    <input type="number" id="personalCode"><br><br>
+
+    <label for="inputSum">Loan amount</label><br>
+    <input type="number" id="inputSum" placeholder="2000 €  -  10000 €"><br><br>
+
+    <label for="loanPeriod">Loan period</label><br>
+    <input type="number" id="loanPeriod" placeholder="12 months  -  60 months"><br><br>
+
+    <button type="button" class="btn btn-primary btn-lg" onclick="sendJSON()">Calculate</button>
+
+<div class="output" id ="outputSum"></div>
+<div class="output" id ="suitablePeriod"></div>
+<div class="output" id ="approved" ></div>
+<div class="output" id ="explanation"></div>
+</p>
+
+
+<div class="footer">
+    <p>Copyright © 2023 All Rights Reserved</p>
+</div>
+</body>
+</html>

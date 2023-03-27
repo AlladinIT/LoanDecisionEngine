@@ -1,0 +1,43 @@
+body{
+    text-align:center;
+    background: rgba(163,74,163,0.6) !important;
+}
+h1{
+    color:white !important;
+    font-size: 50px !important;
+}
+p{
+    color:black !important;
+}
+.output{
+    font-size: x-large !important ;
+    font-weight: bold !important;
+}
+label{
+    font-size: 25px;
+}
+input {
+    text-align:center;
+    width: 30%;
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    display: inline-block;
+    border: 0;
+    box-shadow:0 0 15px 4px rgb(30, 30, 185);
+    border-radius:10px;
+    background: #f1f1f1;
+}
+input:focus{
+    background-color: lightskyblue;
+    outline: none;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rebeccapurple;
+    color: white;
+    text-align: center;
+}
